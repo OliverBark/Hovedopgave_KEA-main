@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+ /* Shipping label meta box */
+#parcel-dimmensions {
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.dimmension-unit, .weight-unit {
+    display:flex;
+    flex-direction: column;
+  /*  margin: 5px;*/
+}
+
+ .parcel-dimmension {
+    width: 75%;
+ }
+
+ #parcel-weight-input {
+    width: 25%;
+ }
+
+ p.label-meta-box {
+    margin: 5px 0 5px 0;
+ }
+
+
+ #dhl-generate-labels {
+   display:flex;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+#dhl-download-labels {
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+
+#button-ajax-download {
+   margin-right: 10px; 
+}
+
+#return-button-ajax-download {
+   margin-left: 10px;
+ }
+
+ #button-ajax-download:hover, #button-ajax-download-return:hover {
+     background-color: #7bc145;
+ }
